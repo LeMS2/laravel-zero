@@ -82,7 +82,7 @@ database/
 ├── migrations
 
 ---
-Como executar o projeto localmente▶️
+## ▶️ Como executar o projeto localmente
 
 1️⃣ Clonar o repositório
 git clone https://github.com/LeMS2/laravel-zero.git
@@ -117,9 +117,14 @@ php artisan migrate
 ⚠️ npm run dev é necessário apenas se estiver usando Vite (assets do Breeze).
 ⚠️ Observações importantes
 
+--- 
 🔐 O arquivo .env não é versionado por segurança 
+
 🔢 IDs do banco podem “pular” (comportamento normal do MySQL)
+
 📚 Projeto desenvolvido com foco em aprendizado contínuo
+
+----
 
 🎯 Objetivo profissional
 Este projeto faz parte do meu processo de aprendizado em Laravel e serve como portfólio prático, demonstrando capacidade de:
@@ -128,13 +133,19 @@ Este projeto faz parte do meu processo de aprendizado em Laravel e serve como po
  - resolver problemas de ambiente
  - evoluir tecnicamente de forma consistente
 
+---- 
+
 📌 Próximos passos (roadmap)
  - Relacionar usuários logados aos cadastros
  - Implementar permissões
  - Adicionar testes automatizados
  - Melhorar UI/UX
  - Preparar deploy
+
+----
    
 💙 Desenvolvido por
+
         Letícia Marques
+        
 Estudante / Desenvolvedora em formação 🚀
