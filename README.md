@@ -21,7 +21,7 @@ Ele foi desenvolvido com foco em:
 - implementar **autenticação e controle de acesso**
 - versionar corretamente com **Git e GitHub**
 
-> 📌 Projeto voltado para **aprendizado e portfólio**
+📌 Projeto voltado para **aprendizado e portfólio**
 
 ---
 
