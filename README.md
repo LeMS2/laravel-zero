@@ -21,7 +21,7 @@ Ele foi desenvolvido com foco em:
 - implementar **autenticação e controle de acesso**
 - versionar corretamente com **Git e GitHub**
 
-📌 Projeto voltado para **aprendizado e portfólio**
+📌 Projeto voltado para **aprendizado e portfólio**.
 
 ---
 
@@ -40,6 +40,7 @@ Ele foi desenvolvido com foco em:
 - 📦 Versionamento com Git e GitHub
 
 ---
+
 ## 📸 Screenshots
 
 ### 📋 Lista de usuários
@@ -48,7 +49,7 @@ Ele foi desenvolvido com foco em:
 ### ➕ Cadastro de usuário
 ![Cadastro de usuário](./screenshots/cadastrar.png)
 
-----
+---
 
 ## 🧠 Conceitos aplicados
 
@@ -75,108 +76,23 @@ Ele foi desenvolvido com foco em:
 - Laragon (ambiente local)
 
 ---
+
 ## 📂 Estrutura do projeto
 
+```txt
 app/
-
-├── Http/Controllers
-
-├── Models
+ ├── Http/Controllers
+ └── Models
 
 resources/
-
-├── views
-
-│ ├── layouts
-
-│ ├── usuarios
-
-│ └── auth
+ └── views
+     ├── layouts
+     ├── usuarios
+     └── auth
 
 routes/
-
-├── web.php
-
-└── auth.php
+ ├── web.php
+ └── auth.php
 
 database/
-
-├── migrations
-
----
-## ▶️ Como executar o projeto localmente
-
-1️⃣ Clonar o repositório
-
-git clone https://github.com/LeMS2/laravel-zero.git
-
-cd laravel-zero
-
-2️⃣ Instalar dependências
-
-composer install
-
-npm install
-
-3️⃣ Configurar ambiente
-
-copy .env.example .env
-
-php artisan key:generate
-
-🎲 Configure o banco de dados no arquivo .env:
-
-DB_DATABASE=laravel_zero
-
-DB_USERNAME=root
-
-DB_PASSWORD=
-
-4️⃣ Rodar as migrations
-
-php artisan migrate
-
-5️⃣ Executar o sistema
-
-  - Usando Laragon (recomendado)
-  - Inicie Apache e MySQL no Laragon
-  - Acesse no navegador: http://laravel-zero.test
-    
-🔹 Usando o servidor do Laravel
-  - php artisan serve
-  - Acesse: http://127.0.0.1:8000
-    
-⚠️ npm run dev é necessário apenas se estiver usando Vite (assets do Breeze).
-
---- 
-⚠️ Observações importantes
-
-🔐 O arquivo .env não é versionado por segurança 
-
-🔢 IDs do banco podem “pular” (comportamento normal do MySQL)
-
-📚 Projeto desenvolvido com foco em aprendizado contínuo
-
-----
-
-🎯 Objetivo profissional
-Este projeto faz parte do meu processo de aprendizado em Laravel e serve como portfólio prático, demonstrando capacidade de:
- - compreender sistemas reais
- - aprender novas tecnologias
- - resolver problemas de ambiente
- - evoluir tecnicamente de forma consistente
-
----- 
-
-📌 Próximos passos (roadmap)
- - Relacionar usuários logados aos cadastros
- - Implementar permissões
- - Adicionar testes automatizados
- - Melhorar UI/UX
- - Preparar deploy
-
-----
-   
-💙 Desenvolvido por
-       Letícia Marques, 
-       Estudante / Desenvolvedora em formação 🚀
+ └── migrations
