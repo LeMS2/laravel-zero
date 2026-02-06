@@ -21,7 +21,7 @@ Ele foi desenvolvido com foco em:
 - implementar **autenticação e controle de acesso**
 - versionar corretamente com **Git e GitHub**
 
-> 📌 Projeto voltado para **aprendizado e portfólio**, ideal para demonstrar base sólida para uma vaga **Júnior**.
+> 📌 Projeto voltado para **aprendizado e portfólio**
 
 ---
 
@@ -69,17 +69,29 @@ Ele foi desenvolvido com foco em:
 ## 📂 Estrutura do projeto
 
 app/
+
 ├── Http/Controllers
+
 ├── Models
+
 resources/
+
 ├── views
+
 │ ├── layouts
+
 │ ├── usuarios
+
 │ └── auth
+
 routes/
+
 ├── web.php
+
 └── auth.php
+
 database/
+
 ├── migrations
 
 ---
