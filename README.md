@@ -85,6 +85,7 @@ database/
 ## ▶️ Como executar o projeto localmente
 
 1️⃣ Clonar o repositório
+
 git clone https://github.com/LeMS2/laravel-zero.git
 
 cd laravel-zero
@@ -99,7 +100,7 @@ copy .env.example .env
 
 php artisan key:generate
 
-Configure o banco de dados no arquivo .env:
+🎲 Configure o banco de dados no arquivo .env:
 
 DB_DATABASE=laravel_zero
 
@@ -151,5 +152,5 @@ Este projeto faz parte do meu processo de aprendizado em Laravel e serve como po
 ----
    
 💙 Desenvolvido por
-       Letícia Marques
+       Letícia Marques, 
        Estudante / Desenvolvedora em formação 🚀
