@@ -86,20 +86,25 @@ database/
 
 1️⃣ Clonar o repositório
 git clone https://github.com/LeMS2/laravel-zero.git
+
 cd laravel-zero
 
 2️⃣ Instalar dependências
 composer install
+
 npm install
 
 3️⃣ Configurar ambiente
 copy .env.example .env
+
 php artisan key:generate
 
 Configure o banco de dados no arquivo .env:
 
 DB_DATABASE=laravel_zero
+
 DB_USERNAME=root
+
 DB_PASSWORD=
 
 4️⃣ Rodar as migrations
@@ -115,9 +120,10 @@ php artisan migrate
   - Acesse: http://127.0.0.1:8000
     
 ⚠️ npm run dev é necessário apenas se estiver usando Vite (assets do Breeze).
-⚠️ Observações importantes
 
 --- 
+⚠️ Observações importantes
+
 🔐 O arquivo .env não é versionado por segurança 
 
 🔢 IDs do banco podem “pular” (comportamento normal do MySQL)
@@ -145,7 +151,5 @@ Este projeto faz parte do meu processo de aprendizado em Laravel e serve como po
 ----
    
 💙 Desenvolvido por
-
-        Letícia Marques
-        
-Estudante / Desenvolvedora em formação 🚀
+       Letícia Marques
+       Estudante / Desenvolvedora em formação 🚀
