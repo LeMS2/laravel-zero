@@ -82,11 +82,9 @@ database/
 ├── migrations
 
 ---
+Como executar o projeto localmente▶️
 
-## ▶️ Como executar o projeto localmente
-
-### 1️⃣ Clonar o repositório
-```bash
+1️⃣ Clonar o repositório
 git clone https://github.com/LeMS2/laravel-zero.git
 cd laravel-zero
 
@@ -98,7 +96,8 @@ npm install
 copy .env.example .env
 php artisan key:generate
 
-Configure o banco de dados no .env:
+Configure o banco de dados no arquivo .env:
+
 DB_DATABASE=laravel_zero
 DB_USERNAME=root
 DB_PASSWORD=
@@ -107,38 +106,35 @@ DB_PASSWORD=
 php artisan migrate
 
 5️⃣ Executar o sistema
-🔹 Usando Laragon (recomendado)
-- Inicie Apache e MySQL
-- Acesse: http://laravel-zero.test
-
+  - Usando Laragon (recomendado)
+  - Inicie Apache e MySQL no Laragon
+  - Acesse no navegador: http://laravel-zero.test
+    
 🔹 Usando o servidor do Laravel
-- php artisan serve
-- Acesse: http://127.0.0.1:8000
-
+  - php artisan serve
+  - Acesse: http://127.0.0.1:8000
+    
 ⚠️ npm run dev é necessário apenas se estiver usando Vite (assets do Breeze).
-
 ⚠️ Observações importantes
-🔐 O arquivo .env não é versionado por segurança
-🔢 IDs do banco podem “pular” (comportamento normal)
+
+🔐 O arquivo .env não é versionado por segurança 
+🔢 IDs do banco podem “pular” (comportamento normal do MySQL)
 📚 Projeto desenvolvido com foco em aprendizado contínuo
 
------
 🎯 Objetivo profissional
 Este projeto faz parte do meu processo de aprendizado em Laravel e serve como portfólio prático, demonstrando capacidade de:
-- entender sistemas reais
-- aprender novas tecnologias
-- resolver problemas de ambiente
-- evoluir tecnicamente de forma consistente
+ - compreender sistemas reais
+ - aprender novas tecnologias
+ - resolver problemas de ambiente
+ - evoluir tecnicamente de forma consistente
 
------
 📌 Próximos passos (roadmap)
-- Relacionar usuários logados aos cadastros
-- Implementar permissões
-- Adicionar testes automatizados
-- Melhorar UI/UX
-- Preparar deploy
-
------
+ - Relacionar usuários logados aos cadastros
+ - Implementar permissões
+ - Adicionar testes automatizados
+ - Melhorar UI/UX
+ - Preparar deploy
+   
 💙 Desenvolvido por
         Letícia Marques
-Estudante / Desenvolvedora em formação
+Estudante / Desenvolvedora em formação 🚀
