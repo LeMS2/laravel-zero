@@ -91,11 +91,13 @@ git clone https://github.com/LeMS2/laravel-zero.git
 cd laravel-zero
 
 2️⃣ Instalar dependências
+
 composer install
 
 npm install
 
 3️⃣ Configurar ambiente
+
 copy .env.example .env
 
 php artisan key:generate
@@ -109,9 +111,11 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 4️⃣ Rodar as migrations
+
 php artisan migrate
 
 5️⃣ Executar o sistema
+
   - Usando Laragon (recomendado)
   - Inicie Apache e MySQL no Laragon
   - Acesse no navegador: http://laravel-zero.test
