@@ -67,6 +67,7 @@ Ele foi desenvolvido com foco em:
 
 ---
 ## 📂 Estrutura do projeto
+
 app/
 ├── Http/Controllers
 ├── Models
