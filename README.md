@@ -40,6 +40,15 @@ Ele foi desenvolvido com foco em:
 - 📦 Versionamento com Git e GitHub
 
 ---
+## 📸 Screenshots
+
+### 📋 Lista de usuários
+![Lista de usuários](./screenshots/usuarios.png)
+
+### ➕ Cadastro de usuário
+![Cadastro de usuário](./screenshots/cadastrar.png)
+
+----
 
 ## 🧠 Conceitos aplicados
 
